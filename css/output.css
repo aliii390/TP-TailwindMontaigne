@@ -582,22 +582,6 @@ video {
   width: ;
 }
 
-.w-\[80\] {
-  width: 80;
-}
-
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[96\%\] {
-  width: 96%;
-}
-
-.w-\[100\%\] {
-  width: 100%;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -610,16 +594,12 @@ video {
   justify-content: center;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-9 {
@@ -640,8 +620,21 @@ video {
   background-color: rgb(245 34 87 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#97D5EC\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(151 213 236 / var(--tw-bg-opacity));
+}
+
 .bg-hero-img {
   background-image: url('../images/bg_header.jpg');
+}
+
+.bg-nuage-img {
+  background-image: url('../images/bg_nuage.jpg');
+}
+
+.p-12 {
+  padding: 3rem;
 }
 
 .p-\[10\%\] {
@@ -660,14 +653,6 @@ video {
   padding: 7%;
 }
 
-.p-9 {
-  padding: 2.25rem;
-}
-
-.p-12 {
-  padding: 3rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -680,6 +665,11 @@ video {
   font-family: Rokkitt, sans-serif;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -688,6 +678,10 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .text-\[23px\] {
@@ -702,13 +696,16 @@ video {
   font-size: 40px;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-\[20\%\] {
+  font-size: 20%;
 }
 
-.text-\[15px\] {
-  font-size: 15px;
+.text-\[90px\] {
+  font-size: 90px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-bold {
@@ -719,20 +716,17 @@ video {
   font-weight: 300;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-extralight {
-  font-weight: 200;
-}
-
 .leading-normal {
   line-height: 1.5;
 }
 
 .leading-relaxed {
   line-height: 1.625;
+}
+
+.text-\[\#4F4F4F\] {
+  --tw-text-opacity: 1;
+  color: rgb(79 79 79 / var(--tw-text-opacity));
 }
 
 .text-\[\#ffff\] {
@@ -744,11 +738,6 @@ video {
   color: hsl(36 100% 99% / var(--tw-text-opacity));
 }
 
-.text-\[\#4F4F4F\] {
-  --tw-text-opacity: 1;
-  color: rgb(79 79 79 / var(--tw-text-opacity));
-}
-
-.text-\[\|\] {
-  color: |;
+.text-\[\] {
+  color: ;
 }

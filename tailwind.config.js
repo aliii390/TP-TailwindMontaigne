@@ -14,6 +14,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-img': "url('../images/bg_header.jpg')",
+        'nuage-img': "url('../images/bg_nuage.jpg')",
       },
     },
   },
