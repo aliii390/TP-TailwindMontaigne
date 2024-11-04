@@ -714,6 +714,18 @@ video {
   background-image: url('../images/bg_header.jpg');
 }
 
+.bg-new-img {
+  background-image: url('../images/bg_newsletter.jpg');
+}
+
+.bg-nuage-img {
+  background-image: url('../images/bg_nuage.jpg');
+}
+
+.bg-photo-img {
+  background-image: url('../images/bg_appareil_photo.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
