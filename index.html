@@ -1,254 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/output.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Intégration google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- Intégration google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <div class="bg-hero-img">
-    <header class="flex p-[7%]">
-      <div class="flex items-center">
-        <div class="flex justify-center items-center">
-          <img class="w-[40%]" src="images/your_logo.png" alt="Image signifiant le logo du site" />
-          <h4 class="text-[23px]">LOGO</h4>
+  <body>
+    <div class="bg-hero-img">
+      <header class="flex p-[7%] md:flex md:items-center lg:flex  lg:justify-center ">
+        <div class="flex items-center lg:gap-6">
+          <div class="flex justify-center items-center ">
+            <img
+              class="w-[40%] lg:w-[80%]"
+              src="images/your_logo.png"
+              alt="Image signifiant le logo du site"
+            />
+            <h4 class="text-[23px] lg:text-[70px] lg:font-light">LOGO</h4>
+          </div>
+          <i class="text-4xl fa-solid fa-bars lg:text-5xl"></i>
         </div>
-        <i class="text-4xl fa-solid fa-bars"></i>
-      </div>
-    </header>
+      </header>
 
-    <!-- 1ere section -->
+      <!-- 1ere section -->
 
-    <section class="text-center leading-relaxed items-center p-[10%] flex flex-col gap-20">
-      <article class="flex justify-center flex-col items-center">
-        <p class="font-Rokkitt text-neutral-off-white text-[40px] w-[80%]">
-          In the hall of the
-        </p>
-        <p class="font-Rokkitt text-neutral-off-white text-6xl font-bold leading-normal">
-          Mountain King
-        </p>
-      </article>
+      <section
+        class="text-center leading-relaxed items-center p-[10%] flex flex-col gap-20"
+      >
+        <article class="flex justify-center flex-col items-center">
+          <p class="font-Rokkitt text-neutral-off-white text-[40px] w-[80%] lg:text-[60px] lg:w-[100%]">
+            In the hall of the
+          </p>
+          <p
+            class="font-Rokkitt text-neutral-off-white text-6xl font-bold leading-normal lg:text-[100px]"
+          >
+            Mountain King
+          </p>
+        </article>
 
-      <article class="font-Roboto text-neutral-off-white font-light text-[25px] w-[80%] text-center">
-        <p>
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
-        </p>
-      </article>
+        <article
+          class="font-Roboto text-neutral-off-white font-light text-[25px] w-[80%] text-center lg:text-[30px] lg:w-[80%]"
+        >
+          <p>
+            This is a simple hero unit, a simple jumbotron-style component for
+            calling extra attention to featured content or information.
+          </p>
+        </article>
 
-      <article class="flex flex-col items-center">
-        <a href=""
-          class="bg-[#36C4C5] text-[#ffff] w-[139px] p-2 text-[23px] font-Roboto font-light text-nowrap text-center">Learn
-          more</a>
-        <a href="" class="bg-[#F52257] text-[#ffff] w-[120px] p-[5px]  text-[23px] font-Roboto font-light">
-          Download</a>
-      </article>
-    </section>
-  </div>
+        <article class="flex flex-col items-center">
+        
+          <div class="flex flex-col items-center lg:flex-row lg:space-x-4">
+            <a
+              href=""
+              class="bg-[#36C4C5] text-[#ffff] w-[139px] p-2 text-[23px] font-Roboto font-light text-nowrap text-center"
+              >Learn more</a
+            >
+            <a
+              href=""
+              class="bg-[#F52257] text-[#ffff] w-[120px] p-[5px] text-[23px] font-Roboto font-light lg:w-[139px] lg:p-2"
+            >
+              Download</a
+            >
 
-  <!-- fin de code -->
-  <main>
-    <!-- 2ème section -->
+          </div>
 
-    <section class="flex flex-col p-12 gap-9">
-      <article class="flex flex-col justify-center text-center gap-2">
-        <i class="fa-solid fa-pencil text-[#4F4F4F] text-2xl"></i>
-        <h3 class="font-Rokkitt text-[#4F4F4F] text-2xl">Consecteur Risus</h3>
-        <p class="font-Roboto font-light text-[#4F4F4F] text-[15px]">
-          Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
-          id elit non mi porta gravida at eget metus. Nullam id dolor id nibh
-          ultricies vehicula ut id elit
-        </p>
-      </article>
+          </article>
+         
+      </section>
+    </div>
 
-      <article class="flex flex-col justify-center text-center gap-2">
-        <i class="fa-solid fa-camera text-[#4F4F4F] text-2xl""></i>
-          <h3 class=" font-Rokkitt text-[#4F4F4F] text-2xl">Ultricies Aenean</h3>
+    <!-- fin de code -->
+    <main>
+      <!-- 2ème section -->
+
+      <section class="flex flex-col p-12 gap-9">
+        <article class="flex flex-col justify-center text-center gap-2 ">
+          <i class="fa-solid fa-pencil text-[#4F4F4F] text-2xl"></i>
+          <h3 class="font-Rokkitt text-[#4F4F4F] text-2xl">Consecteur Risus</h3>
+          <p class="font-Roboto font-light text-[#4F4F4F] text-[15px] lg:w-[65%] ">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+            id elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+            ultricies vehicula ut id elit
+          </p>
+        </article>
+
+        <article class="flex flex-col justify-center text-center gap-2">
+          <i class="fa-solid fa-camera text-[#4F4F4F] text-2xl"></i>
+          <h3 class="font-Rokkitt text-[#4F4F4F] text-2xl">Ultricies Aenean</h3>
           <p class="font-Roboto font-light text-[#4F4F4F] text-[15px]">
             Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer
             posuere erat a ant venenatis dapibus posuere velit aliquet. Donec
             ullamcorper nulla non metus auctor fringilla.
           </p>
-      </article>
+        </article>
 
-      <article class="flex flex-col justify-center text-center gap-2">
-        <i class="fa-regular fa-bookmark  text-[#4F4F4F] text-2xl"></i>
-        <h3 class="font-Rokkitt text-[#4F4F4F] text-2xl">Cras Sollicitudin</h3>
-        <p class="font-Roboto font-light text-[#4F4F4F] text-[15px]">
-          Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam.
-          Pellentesque ornare sem lacinia quam venenatis vestibulum.
-          Maecenas faucibus mollis interdum.
-        </p>
-      </article>
+        <article class="flex flex-col justify-center text-center gap-2">
+          <i class="fa-regular fa-bookmark text-[#4F4F4F] text-2xl"></i>
+          <h3 class="font-Rokkitt text-[#4F4F4F] text-2xl">
+            Cras Sollicitudin
+          </h3>
+          <p class="font-Roboto font-light text-[#4F4F4F] text-[15px]">
+            Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam.
+            Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas
+            faucibus mollis interdum.
+          </p>
+        </article>
+      </section>
+      <!-- fin de code  -->
 
-    </section>
-    <!-- fin de code  -->
+      <!-- 3éme section -->
 
-    <!-- 3éme section -->
+      <section
+        class="bg-nuage-img bg-cover bg-center flex flex-col items-center justify-center"
+      >
+        <div class="flex flex-col bg-[#98D6ED] bg-opacity-50 p-9 space-y-4 m-4">
+          <h2 class="font-Rokkitt text-neutral-off-white text-4xl w-[90%]">
+            Ligula Mattis ornare Ultiricies
+          </h2>
+          <p class="font-Rokkitt text-neutral-off-white text-2xl">
+            Pellentesque Cursus Amet Parturient Etiam
+          </p>
+          <p class="font-Roboto text-neutral-off-white text-[17px] text-left">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+            id elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+            ultricies vehicula ut id elit.
+          </p>
 
-    <section class="bg-nuage-img bg-cover bg-center flex flex-col items-center justify-center">
-      <div class="flex flex-col bg-[#98D6ED] bg-opacity-50 p-9  space-y-4 m-4">
-        <h2 class="font-Rokkitt text-neutral-off-white text-4xl w-[90%] ">
-          Ligula Mattis ornare Ultiricies
-        </h2>
-        <p class="font-Rokkitt text-neutral-off-white text-2xl">Pellentesque Cursus Amet Parturient Etiam</p>
-        <p class="font-Roboto text-neutral-off-white text-[17px] text-left">
-          Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
-          Nullam id dolor id nibh ultricies vehicula ut id elit.
-        </p>
+          <div class="flex flex-col justify-center items-center gap-5">
+            <article
+              class="flex flex-col border border-solid border-neutral-off-white items-center w-[50%] h-[21vh] justify-center"
+            >
+              <h3 class="font-Rokkitt text-neutral-off-white text-[25px]">
+                Ultricies
+              </h3>
+              <p class="font-Rokkitt text-neutral-off-white text-[25px]">
+                23,578
+              </p>
+            </article>
 
-        <div class="flex flex-col justify-center items-center gap-5">
-          <article
-            class=" flex flex-col border border-solid border-neutral-off-white items-center w-[50%] h-[21vh] justify-center">
-            <h3 class="font-Rokkitt text-neutral-off-white text-[25px]">Ultricies</h3>
-            <p class="font-Rokkitt text-neutral-off-white text-[25px]">23,578</p>
-          </article>
-
-          <article
-            class=" flex flex-col border border-solid border-neutral-off-white items-center w-[50%] h-[21vh] justify-center">
-            <h3 class="font-Rokkitt text-neutral-off-white text-[25px]">Fermentum</h3>
-            <p class="font-Rokkitt text-neutral-off-white text-[25px]">12,702</p>
-          </article>
-
+            <article
+              class="flex flex-col border border-solid border-neutral-off-white items-center w-[50%] h-[21vh] justify-center"
+            >
+              <h3 class="font-Rokkitt text-neutral-off-white text-[25px]">
+                Fermentum
+              </h3>
+              <p class="font-Rokkitt text-neutral-off-white text-[25px]">
+                12,702
+              </p>
+            </article>
+          </div>
         </div>
+      </section>
 
-      </div>
-    </section>
+      <!-- fin de code -->
 
+      <!-- 4ème section -->
 
-    <!-- fin de code -->
-
-    <!-- 4ème section -->
-
-    <section class="p-6 flex flex-col gap-6">
-      <h2 class="font-Rokkitt text-[#4F4F4F] text-[35px] w-[80%]">Lorem ipsum dolor sit amet, consectetur adispiscing
-        elit.</h2>
-      <p class="font-Roboto text-[#4F4F4F] font-light">Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-        eget lacinia odio sem nec elit. Maecenas sed
-        diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Curabitur blandit tempus porttitor.
-        Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p>
-
-      <p class="font-Roboto text-[#4F4F4F] font-light"> Donec id elit non mi porta gravida at eget metus. Donec id elit
-        non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus, tellus ac cursus commodo,
-        tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis
-        in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>
-
-      <a href="#"
-        class="bg-[#F52257] text-[#ffff] w-[145px] h-[50px] p-[9px] text-[20px] font-Roboto font-light text-center flex items-center gap-1">Take
-        a Look <i class="fa-solid fa-arrow-right text-[15px]"></i></a>
-
-      <img src="/images/1200.jpeg" alt="">
-
-
-    </section>
-
-
-    <!-- fin de code -->
-
-
-    <!-- 4éme section -->
-
-    <section class="bg-photo-img bg-cover bg-center flex flex-col items-center justify-center">
-      <div class="flex flex-col bg-[#98D6ED] bg-opacity-50 p-9  space-y-4 m-4">
-        <p class="font-Roboto font-thin text-neutral-off-white text-2xl w-[85%]">Donec sed odio dui. Integer posuere
-          erat a ante
-          venenatis dapibus posuere velit aliquet. Praesent commodo
-          cursus magna, vel scelirsque nisl consectetur et.</p>
-
-        <p class="font-Roboto text-neutral-off-white text-[20px] ">Aenean eu leo quam. Pellentesque ornare sem lacinia
-          quam venenatis vestibulum. Duis mollis, est non commodo
-          luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare
-          sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent
-          commodo cursus magna, vel scelerisque nisl consecteur et.
+      <section class="p-6 flex flex-col gap-6">
+        <h2 class="font-Rokkitt text-[#4F4F4F] text-[35px] w-[80%]">
+          Lorem ipsum dolor sit amet, consectetur adispiscing elit.
+        </h2>
+        <p class="font-Roboto text-[#4F4F4F] font-light">
+          Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit
+          sit amet non magna. Donec sed odio dui. Curabitur blandit tempus
+          porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.
+          Etiam porta sem malesuada magna mollis euismod.
         </p>
 
-        <h3 class="font-Rokkitt font-thin text-2xl text-neutral-off-white">- Fermentum Dapibus</h3>
-        <p class="font-Roboto text-neutral-off-white">Nibh Etiam Risus Bibendum</p>
-        <p class="font-Roboto text-neutral-off-white">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        <p class="font-Roboto text-[#4F4F4F] font-light">
+          Donec id elit non mi porta gravida at eget metus. Donec id elit non mi
+          porta gravida at eget metus. Integer posuere erat a ante venenatis
+          dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+          fermentum massa justo sit amet risus. Cras justo odio, dapibus ac
+          facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra
+          augue.
+        </p>
 
+        <a
+          href="#"
+          class="bg-[#F52257] text-[#ffff] w-[145px] h-[50px] p-[9px] text-[20px] font-Roboto font-light text-center flex items-center gap-1"
+          >Take a Look <i class="fa-solid fa-arrow-right text-[15px]"></i
+        ></a>
 
-      </div>
-    </section>
+        <img src="/images/1200.jpeg" alt="" />
+      </section>
 
-    <!-- fin de code  -->
+      <!-- fin de code -->
 
-    <!-- 5ème section -->
+      <!-- 4éme section -->
 
-    <section class="bg-[#DDDDDD] flex flex-col p-2 gap-3">
-     
-      <img src="images/300.jpeg" alt="">
-      <img src="images/776.jpeg" alt="">
-      <img src="images/800.jpeg" alt="">
-      <img src="images/400.jpeg" alt="">
-      <img src="images/2476.jpeg" alt="">
-      <img src="images/439.jpeg" alt="">
-      <img src="images/140.jpeg" alt="">
-    </section>
+      <section
+        class="bg-photo-img bg-cover bg-center flex flex-col items-center justify-center"
+      >
+        <div class="flex flex-col bg-[#98D6ED] bg-opacity-50 p-9 space-y-4 m-4">
+          <p
+            class="font-Roboto font-thin text-neutral-off-white text-2xl w-[85%]"
+          >
+            Donec sed odio dui. Integer posuere erat a ante venenatis dapibus
+            posuere velit aliquet. Praesent commodo cursus magna, vel scelirsque
+            nisl consectetur et.
+          </p>
 
-    <!-- fin de code -->
+          <p class="font-Roboto text-neutral-off-white text-[20px]">
+            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+            vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit. Aenean eu leo quam.
+            Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras
+            justo odio, dapibus ac facilisis in, egestas eget quam. Praesent
+            commodo cursus magna, vel scelerisque nisl consecteur et.
+          </p>
 
-    <!-- 6ème section -->
+          <h3 class="font-Rokkitt font-thin text-2xl text-neutral-off-white">
+            - Fermentum Dapibus
+          </h3>
+          <p class="font-Roboto text-neutral-off-white">
+            Nibh Etiam Risus Bibendum
+          </p>
+          <p class="font-Roboto text-neutral-off-white">
+            Nullam id dolor id nibh ultricies vehicula ut id elit.
+          </p>
+        </div>
+      </section>
 
-    <section class="flex flex-col p-4">
-      <img src="images/logo-sample-01.jpg" alt="">
-      <img src="images/logo-sample-02.jpg" alt="">
-      <img src="images/logo-sample-03.png" alt="">
-      <img src="images/logo-sample-04.jpg" alt="">
-      <img src="images/logo-sample-05.jpg" alt="">
-      <img src="images/logo-sample-06.png" alt="" class="w-[50%]">
+      <!-- fin de code  -->
 
-    </section>
+      <!-- 5ème section -->
 
-    <!-- fin de code -->
+      <section class="bg-[#DDDDDD] flex flex-col p-2 gap-3">
+        <img src="images/300.jpeg" alt="" />
+        <img src="images/776.jpeg" alt="" />
+        <img src="images/800.jpeg" alt="" />
+        <img src="images/400.jpeg" alt="" />
+        <img src="images/2476.jpeg" alt="" />
+        <img src="images/439.jpeg" alt="" />
+        <img src="images/140.jpeg" alt="" />
+      </section>
 
+      <!-- fin de code -->
 
-    <!-- 7ème section -->
+      <!-- 6ème section -->
 
-    <section class="bg-new-img flex flex-col p-5 gap-8 ">
-      <h2 class="font-Rokkitt text-neutral-off-white text-4xl w-[76%]"> Maecenas sed diam eget risus varius blandit sit
-        amet non
-        magna.</h2>
-      <p class="font-Roboto text-neutral-off-white">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-        vestibulum. Cras mattis consectetur purus
-        sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consecteur et. Praesent commodo cursus
-        magna, vel scelerisque nisl consectetur et.</p>
+      <section class="flex flex-col p-4">
+        <img src="images/logo-sample-01.jpg" alt="" />
+        <img src="images/logo-sample-02.jpg" alt="" />
+        <img src="images/logo-sample-03.png" alt="" />
+        <img src="images/logo-sample-04.jpg" alt="" />
+        <img src="images/logo-sample-05.jpg" alt="" />
+        <img src="images/logo-sample-06.png" alt="" class="w-[50%]" />
+      </section>
 
-      <input type="text" placeholder="Your Email Here..." name="" id="" class="w-[70%] p-2 ">
-      <a href="#"
-        class="bg-[#F52257] text-[#ffff] w-[180px] h-[50px] p-[9px] text-[20px] font-Roboto font-light text-center flex items-center gap-1">Submit
-        Newsletter</a>
-    </section>
+      <!-- fin de code -->
 
-    <!-- fin de code -->
+      <!-- 7ème section -->
 
-  </main>
+      <section class="bg-new-img flex flex-col p-5 gap-8">
+        <h2 class="font-Rokkitt text-neutral-off-white text-4xl w-[76%]">
+          Maecenas sed diam eget risus varius blandit sit amet non magna.
+        </h2>
+        <p class="font-Roboto text-neutral-off-white">
+          Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+          vestibulum. Cras mattis consectetur purus sit amet fermentum. Praesent
+          commodo cursus magna, vel scelerisque nisl consecteur et. Praesent
+          commodo cursus magna, vel scelerisque nisl consectetur et.
+        </p>
 
-  <footer class="bg-[#24323B] p-8 flex flex-col gap-8" >
-    <h3 class="font-Rokkitt text-neutral-off-white text-4xl">Your Logo</h3>
-    <p class="text-neutral-off-white"><i class="fa-regular fa-copyright"></i> Your Company. Designed and Developed by
-      <span class="text-[#3ABE8F]">The Maitre jet d'ail</span></p>
+        <input
+          type="text"
+          placeholder="Your Email Here..."
+          name=""
+          id=""
+          class="w-[70%] p-2"
+        />
+        <a
+          href="#"
+          class="bg-[#F52257] text-[#ffff] w-[180px] h-[50px] p-[9px] text-[20px] font-Roboto font-light text-center flex items-center gap-1"
+          >Submit Newsletter</a
+        >
+      </section>
+
+      <!-- fin de code -->
+    </main>
+
+    <footer class="bg-[#24323B] p-8 flex flex-col gap-8">
+      <h3 class="font-Rokkitt text-neutral-off-white text-4xl">Your Logo</h3>
+      <p class="text-neutral-off-white">
+        <i class="fa-regular fa-copyright"></i> Your Company. Designed and
+        Developed by
+        <span class="text-[#3ABE8F]">The Maitre jet d'ail</span>
+      </p>
       <div class="flex items-center gap-5 justify-end">
-          <i class="fa-brands fa-facebook-f text-[#3ABE8F]"></i>
-          <i class="fa-brands fa-twitter text-[#3ABE8F]"></i>
+        <i class="fa-brands fa-facebook-f text-[#3ABE8F]"></i>
+        <i class="fa-brands fa-twitter text-[#3ABE8F]"></i>
         <i class="fa-brands fa-github-alt text-neutral-off-white"></i>
         <i class="fa-solid fa-basketball text-neutral-off-white"></i>
-      
       </div>
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>
