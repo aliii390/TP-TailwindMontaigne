@@ -1020,6 +1020,10 @@ video {
     width: 100%;
   }
 
+  .lg\:w-\[330px\] {
+    width: 330px;
+  }
+
   .lg\:w-\[50\%\] {
     width: 50%;
   }
@@ -1030,10 +1034,6 @@ video {
 
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:flex-col {
-    flex-direction: column;
   }
 
   .lg\:items-center {
