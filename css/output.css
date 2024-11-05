@@ -610,6 +610,14 @@ video {
   width: 90%;
 }
 
+.w-\[\%\] {
+  width: %;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1028,8 +1036,16 @@ video {
     grid-row-start: 3;
   }
 
+  .lg\:ml-\[15\%\] {
+    margin-left: 15%;
+  }
+
   .lg\:ml-\[30\%\] {
     margin-left: 30%;
+  }
+
+  .lg\:mr-\[0\%\] {
+    margin-right: 0%;
   }
 
   .lg\:mr-\[30\%\] {
@@ -1044,30 +1060,6 @@ video {
     margin-top: 1rem;
   }
 
-  .lg\:mr-\[\] {
-    margin-right: ;
-  }
-
-  .lg\:mr-\[0\] {
-    margin-right: 0;
-  }
-
-  .lg\:mr-\[0\%\] {
-    margin-right: 0%;
-  }
-
-  .lg\:ml-\[\] {
-    margin-left: ;
-  }
-
-  .lg\:ml-\[15\%\] {
-    margin-left: 15%;
-  }
-
-  .lg\:ml-\[20\%\] {
-    margin-left: 20%;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -1078,6 +1070,14 @@ video {
 
   .lg\:w-\[100\%\] {
     width: 100%;
+  }
+
+  .lg\:w-\[100px\] {
+    width: 100px;
+  }
+
+  .lg\:w-\[120px\] {
+    width: 120px;
   }
 
   .lg\:w-\[330px\] {
@@ -1108,22 +1108,36 @@ video {
     width: 40%;
   }
 
-  @media (min-width: 1024px) {
-    .lg\:lg\:w-\[40\%\] {
-      width: 40%;
-    }
+  .lg\:w-\[30\%\] {
+    width: 30%;
   }
 
-  .lg\:w-\[120px\] {
-    width: 120px;
+  .lg\:w-\[60\%\] {
+    width: 60%;
   }
 
-  .lg\:w-\[10px\] {
-    width: 10px;
+  .lg\:w-\[8\%\] {
+    width: 8%;
   }
 
-  .lg\:w-\[100px\] {
-    width: 100px;
+  .lg\:w-\[84\%\] {
+    width: 84%;
+  }
+
+  .lg\:w-\[\%\] {
+    width: %;
+  }
+
+  .lg\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .lg\:w-\[79\%\] {
+    width: 79%;
+  }
+
+  .lg\:w-\[70\%\] {
+    width: 70%;
   }
 
   .lg\:grid-cols-3 {
@@ -1138,36 +1152,28 @@ video {
     flex-direction: row;
   }
 
-  .lg\:content-center {
-    align-content: center;
-  }
-
   .lg\:items-center {
     align-items: center;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
   }
 
   .lg\:gap-12 {
     gap: 3rem;
   }
 
-  .lg\:gap-3 {
-    gap: 0.75rem;
-  }
-
   .lg\:gap-7 {
     gap: 1.75rem;
   }
 
-  .lg\:p-7 {
-    padding: 1.75rem;
+  .lg\:p-6 {
+    padding: 1.5rem;
   }
 
-  .lg\:text-center {
-    text-align: center;
+  .lg\:p-4 {
+    padding: 1rem;
+  }
+
+  .lg\:p-20 {
+    padding: 5rem;
   }
 
   .lg\:text-5xl {
